@@ -2,7 +2,7 @@
 
 ***Repository will be updated as each HW is transpiled to pytorch***
 
-Pytorch starter code for [UC Berkeley's CS285 Deep RL course](http://rail.eecs.berkeley.edu/deeprlcourse/). The code is meant to be used as a direct alternative to the [official HW repository](https://github.com/berkeleydeeprlcourse/homework_fall2019) for students who would rather complete the course in pytorch. 
+Pytorch starter code for [UC Berkeley's CS285 Deep RL course](http://rail.eecs.berkeley.edu/deeprlcourse/). The code is meant to be used as a direct alternative to the [official HW repository](https://github.com/berkeleydeeprlcourse/homework_fall2019) for those who would rather complete the course assignments in pytorch. Solutions to this starter code is available [here](https://github.com/mdeib/berkeley-deep-RL-pytorch-solutions).
 
 # Changes
 
