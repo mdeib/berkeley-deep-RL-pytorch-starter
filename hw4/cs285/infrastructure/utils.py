@@ -105,9 +105,6 @@ def sample_trajectory(env, policy, max_path_length, render=False, render_mode=('
     # initialize env for the beginning of a new rollout
     ob = env.reset()
 
-    if render:
-        env.render(mode = "human")
-
     # init vars
     obs, acs, rewards, next_obs, terminals, image_obs = [], [], [], [], [], []
     steps = 0
