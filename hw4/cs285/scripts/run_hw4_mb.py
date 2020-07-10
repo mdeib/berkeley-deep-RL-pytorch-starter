@@ -1,6 +1,6 @@
 #If not using anaconda use next two lines:
-import sys
-sys.path.append(r'C:\Users\Matt\OneDrive\RL\UCBerkeley-deep-RL\hw4')
+#import sys
+#sys.path.append(r'<Your path to cs285 here>')
 
 import torch
 import os
