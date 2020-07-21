@@ -1,4 +1,4 @@
-#Uncomment 2next two lines and replace the path in not using anaconda
+#Uncomment next two lines and replace the path if not using anaconda
 #import sys
 #sys.path.append(r'<your path to hw1 folder>')
 
