@@ -1,5 +1,6 @@
-import sys
-sys.path.append(r'C:\Users\Matt\OneDrive\RL\UCBerkeley-deep-RL\hw2')
+#Uncomment next two lines and replace the path if not using anaconda
+#import sys
+#sys.path.append(r'<your path to hw1 folder>')
 
 import torch
 import os
