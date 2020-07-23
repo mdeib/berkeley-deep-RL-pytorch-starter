@@ -103,7 +103,7 @@ class MLPPolicyPG(MLPPolicy):
         # HINT2: look at logprob_pi above
         # HINT3: don't forget that we need to MINIMIZE this self.loss
             # but the equation above is something that should be maximized
-        #HINT4: don't forget to propagate the loss backward
+        #HINT4: Don't forget to propagate the loss backward
 
         if self.nn_baseline:
             baseline_prediction = self.baseline_mlp(torch.Tensor(observations).to(self.device)).view(-1)
@@ -111,8 +111,8 @@ class MLPPolicyPG(MLPPolicy):
 
             # TODO: define the loss that should be optimized for training the baseline
             # HINT1: use nn.functional.mse_loss, similar to SL loss from hw1
-            # HINT2: we want predictions (self.baseline_prediction) to be as close as possible to the labels (self.targets_n)
-            # HINT3: don't forget to propagate the loss backward
+            # HINT2: we want predictions (baseline_prediction) to be as close as possible to the labels (baseline_target)
+            # HINT3: Don't forget to propagate the loss backward
 
         #step the optimizer
         return loss
